@@ -97,6 +97,21 @@ ul li a:hover{
     text-align: center;
     animation: glow 2s ease-in-out infinite alternate;
   }
+  .glow2 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 5s ease-in-out infinite alternate;
+    margin-top: 2cm;
+  }
+
+  .custom {
+      margin-top: 1.5cm;
+      margin-left: auto;
+      margin-right: auto;
+      color:#fff;
+      text-align: center;
+
   
   @-webkit-keyframes glow {
     from {
