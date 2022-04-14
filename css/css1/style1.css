@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
@@ -6,10 +6,10 @@
 
 
 header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../../pictures/gif.gif");
     height: 100vh;
     background-size: cover;
     background-position: center;
-
 }
 
 
@@ -56,7 +56,7 @@ ul li a:hover{
 
 .title{
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform:translate(-50%,-50%) ;
 }
@@ -64,7 +64,7 @@ ul li a:hover{
 
 .title h1{
     color: rgb(209, 253, 239);
-    font-size: 65px;
+    font-size: 50px;
 
 }
 
@@ -97,58 +97,52 @@ ul li a:hover{
     text-align: center;
     animation: glow 2s ease-in-out infinite alternate;
   }
-  
+
+.paragraph1 { 
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    line-height: 0.7cm;
+    top: 33%;
+    left: 5%;
+    width: 55%;
+}
+.paragraph2 { 
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    line-height: 0.7cm;
+    top: 74%;
+    left: 43%;
+    width: 55%;
+}
+h3 { 
+    text-align: center;
+    color:#fa55de;
+    font-size: 20px;
+}
+h4 { 
+    text-align: center;
+    color:#fa55de;
+    font-size: 20px;
+}
+
+.kresls { 
+    position: fixed;
+    left: 40cm;
+    bottom: 8.5cm;
+
+}
+
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #f144f7, 0 0 70px #000000;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #f144f7, 0 0 70px #000000;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4de7, 0 0 50px #ff4de1, 0 0 60px #ff4df0, 0 0 70px #ff4dff, 0 0 80px #ff4da6;
+      }
     }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4df0, 0 0 40px #ff4de7, 0 0 50px #ff4de1, 0 0 60px #ff4df0, 0 0 70px #ff4dff, 0 0 80px #ff4da6;
-    }
-  }
-
-  .atsauksme {
-   color: violet;
-   margin: auto;
-   width: 25%;
-   text-align: center;
-  }
-
-  form {
-    color: #fff;
-    margin: auto;
-    padding: 15%;
-    text-align: center;
-  }
   
-  .paldies {
-      color: #fff;
-      padding: 15%;
-      text-align: left;
-  }
-  .paldies h1 {
-    font-size: 30px
-  }
-
- .butt_at_a {
-    background-color: violet;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-
-  .atsauksme_butt input {
-    display:none;
-  }
-
-  .atsauksmes_zvaigzne {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px
-  }
